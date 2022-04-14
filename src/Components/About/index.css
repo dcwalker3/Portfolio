@@ -1,24 +1,55 @@
-.wrapAroundText{
-    width: 100%;
-    height: 100%;
+.about-container {
     display: flex;
     flex-direction: column;
-    
+    align-items: center;
+    justify-content: center;
+    width: 50% !important;
+    max-width: 25rem !important;
+    height: fit-content;
+    margin-left: 10%;
+    background-color: rgb(36, 36, 36);
+    color: white;
+    border-radius: 15px;
 }
 
-.wrapAroundText .aboutImg {
-    float: right;
-    
-    /* Float image to the right and have text wrap around it */
-    margin-left: auto;
-    margin-right: 0;
-
-    shape-outside: circle(50%);
+@media screen and (max-width: 600px) {
+    .about-container {
+        width: 75% !important;
+    }
+   
 }
 
-.wrapAroundText caption {
-    margin-left: auto;
-    margin-right: 0;
-    /* Caption text is centered */
+@media screen and (max-width: 400px) {
+    .about-container {
+        width: 90% !important;
+    }
+}
+    
+
+.about-container {
+    width: 50%;
+
+}
+
+.about-header {
+    font-weight: bold;
+    margin-top: 2rem;
     text-align: center;
+}
+
+.about-text {
+    text-indent: 2rem;
+    margin: 1.5rem;
+}
+
+.about-container a {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+.resumeBtn:hover{
+    cursor: pointer !important;
+    background-color: white !important;
+    color: dodgerblue !important;
 }

@@ -1,12 +1,11 @@
 
-import About from './About';
-import Project from './Projects';
+import About from '../About';
+import Project from '../Projects';
 
 // Generic Utility CSS
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
-
+import "./index.css"
 
 function App() {
   return (

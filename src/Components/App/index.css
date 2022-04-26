@@ -1,0 +1,25 @@
+.view-more-projects {
+    position: relative;
+    display: inline-block;
+    margin: auto;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.view-more-projects a {
+    text-decoration: none;
+    color: inherit;
+    font-size: large;
+}
+
+.site-links:hover {
+    text-decoration: underline;
+    color: gray;
+}
+
+.icon-link {
+    text-decoration: none;
+    color: inherit;
+    font-size: medium;
+}

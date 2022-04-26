@@ -1,0 +1,53 @@
+#projects-container {
+    width: 60%;
+    display: flex;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    background-color: rgb(36, 36, 36);
+    color: white;
+    border-radius: 15px;
+}
+
+#projects-container #projects-content {
+    margin: 1rem;
+    text-align: center;
+    width: 100%;
+}
+
+.project {
+    margin: 1rem;
+    padding: 1rem;
+    float: left;
+    display: inline-flex;
+    flex-direction: column;
+    width: 16rem;
+    font-size: medium;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+}
+
+.thumbnail {
+    width: 10rem;
+    border-radius: 5px;
+}
+
+.project .thumbnail {
+    margin: 1rem;
+}
+
+.project .project-links a{
+    margin: .75rem;
+    text-align: center;
+    color: black !important;
+    font-size: x-large;
+}
+
+
+@media screen and (max-width: 1000px) {
+    #projects-container {
+        width: 90%;
+    }
+
+}

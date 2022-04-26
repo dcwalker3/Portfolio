@@ -12,6 +12,21 @@
     border-radius: 15px;
 }
 
+.social-icons {
+    margin: 1rem;
+    font-size: x-large;
+}
+
+.social-icons a{
+    color: white !important;
+    margin: .7rem;
+}
+
+.social-icons a:hover {
+    color: rgb(215, 215, 215) !important;
+    
+}
+
 @media screen and (max-width: 600px) {
     .about-container {
         width: 75% !important;
